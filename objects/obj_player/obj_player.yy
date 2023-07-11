@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_player",
   "spriteId": {
-    "name": "spr_carita",
-    "path": "sprites/spr_carita/spr_carita.yy",
+    "name": "spr_bat_man_idle",
+    "path": "sprites/spr_bat_man_idle/spr_bat_man_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,10 +24,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [
-    {"x":15.0,"y":14.0,},
-    {"x":48.0,"y":14.0,},
-    {"x":48.0,"y":45.0,},
-    {"x":15.0,"y":45.0,},
+    {"x":2.0,"y":25.0,},
+    {"x":35.0,"y":25.0,},
+    {"x":35.0,"y":59.0,},
+    {"x":2.0,"y":59.0,},
   ],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
@@ -35,6 +35,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":37,"eventType":5,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":38,"eventType":5,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":40,"eventType":5,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
